@@ -482,7 +482,7 @@
           <a href="https://www.linkedin.com/in/viktoria-ninova-43596a284" target="_blank">
             <i class="fab fa-linkedin-in"></i> LinkedIn
           </a>
-          <a href="Viktoria_Ninova_CV.pdf" target="_blank">
+          <a href="ViktoriaNinova_CV.docx.pdf" target="_blank">
             <i class="fas fa-file-alt"></i> CV
           </a>
         </div>
@@ -493,6 +493,7 @@
       <span class="skill">Game Design</span>
       <span class="skill">UI/UX</span>
       <span class="skill">Animation</span>
+      <span class="skill">3D Assets</span>
     </div>
   </section>
 
@@ -506,7 +507,7 @@
         <ul>
           <li>Character Design</li>
           <li>Environment Design</li>
-          <li>Sprite Animation</li>
+          <li>Sprite and 3D Animation</li>
           <li>Tilesets</li>
         </ul>
       </div>
@@ -516,9 +517,9 @@
         <h3><i class="fas fa-mouse-pointer"></i> TOOLS</h3>
         <ul>
           <li>Aseprite</li>
-          <li>Procreate</li>
+          <li>Procreate/Clip Studio Paint</li>
           <li>Blender</li>
-          <li>Autodesk Maya</li>
+          <li>Substance Painter</li>
         </ul>
       </div>
       
@@ -537,15 +538,8 @@
 
   <!-- PROJECTS SECTION -->
   <section id="projects">
-    <h2>LATEST WORK</h2>
-    
-    <!-- CHARACTER PORTFOLIO PROJECT -->
-    <div class="project-card">
-      <div class="project-info">
-        <h3>CHARACTER PORTFOLIO</h3>
-        <p>A collection of 4 pixel art characters with animations</p>
-      </div>
-    </div>
+    <h2>PROJECTS</h2>
+  
     
     <!-- CHARACTER PORTFOLIO FOLDER (Now visible by default) -->
     <div class="folder-container" id="characterPortfolio">
@@ -859,6 +853,31 @@
         </div>
       </div>
     </div>
+    
+    <!-- NEW PROJECT: PICHO SHOWCASE -->
+    <div class="project-card">
+      <div class="youtube-container">
+        <iframe src="https://www.youtube.com/embed/O5oH21s8t0M?si=Vv1RYoXmLScWh4Jf" title="Picho Showreel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="project-info">
+        <h3>3D Character Showcase</h3>
+        <p>A character showcase in Unity with 5 states and 3 different attacks.</p>
+        
+        <div class="character-specs">
+          <div class="spec-item">
+            <div class="spec-title">SOFTWARE</div>
+            <div>Blender, Unity</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-title">Character States</div>
+            <div>Idle, Walk, Run, Jump, Attack</div>
+          </div>
+          <div class="spec-item">
+            <div class="spec-title">Animations</div>
+            <div>Motion Captured, Retargetted, Rigged</div>
+          </div>
+      </div>
+    </div>
   </section>
 
   <!-- IMAGE MODAL -->
@@ -967,6 +986,7 @@
         portfolio.querySelector(`#${tabId}-content`).classList.add('active');
       });
     });
+    
   </script>
 </body>
 </html>
